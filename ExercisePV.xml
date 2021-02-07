@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+   <titre>Mon rêve familier</titre>
+   <author>Paul Verlaine</author>
+      <verse1>Je fais souvent ce rêve étrange et pénétrant</verse1>
+      <verse2>D'une femme inconnue, et que j'aime, et qui m'aime</verse2>
+      <verse3>Et qui n'est, chaque fois, ni tout à fait la même</verse3>
+      <verse4>Ni tout à fait une autre, et m'aime et me comprend.</verse4>
+      <verse5>Car elle me comprend, et mon coeur, transparent</verse5>
+      <verse6>...</verse6>
+      <verse14>L'inflexion des voix chères qui se sont tues.</verse14> 
+</poem>
+
+<?xml version="1.0" encoding="UTF-16"?>
+
+<texte>
+   <titre>Mon rêve familier</titre>
+   <auteur type="poete">Paul Verlaine</auteur>
+   <strophe>
+      <strophe type="quatrain">
+         <vers>Je fais souvent ce rêve étrange et pénétrant</vers>
+         <vers>D'une femme inconnue, et que j'aime, et qui m'aime</vers>
+         <vers>Et qui n'est, chaque fois, ni tout à fait la même</vers>
+         <vers>Ni tout à fait une autre, et m'aime et me comprend.</vers>
+      </strophe>
+      <strophe type="quatrain">
+         <vers>Car elle me comprend, et mon coeur, transparent</vers>
+         <vers>Pour elle seule, hélas ! cesse d'être un problème</vers>
+         <vers>Pour elle seule, et les moiteurs de mon front blême, </vers>
+         <vers>Elle seule les sait rafraîchir, en pleurant.</vers>
+      </strophe>
+      <strophe type="sizain">
+         <strophe type="tercet">
+            <vers>Est-elle brune, blonde ou rousse ? - Je l'ignore.</vers>
+            <vers>Son nom ? Je me souviens qu'il est doux et sonore </vers>
+            <vers>Comme ceux des aimés que la Vie exila.</vers>
+         </strophe>
+         <strophe type="tercet">
+            <vers>Son regard est pareil au regard des statues, </vers>
+            <vers>Et, pour sa voix, lointaine, et calme, et grave, elle a </vers>
+            <vers>L'inflexion des voix chères qui se sont tues.</vers></strophe>
+      </strophe>
+   </strophe>
+</texte>
