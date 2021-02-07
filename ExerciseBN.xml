@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Blanche Neige</title>
+         </titleStmt>
+         <sourceDesc>
+            <p>Inconnu</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Blanche-Neige mange la pomme empoisonnée</p>
+         <p>Il était une fois Blanche-Neige1 que sa belle-mère détestait. [...]</p>
+         <p>Blanche-Neige attend le prince Charmant</p>
+         <p>Un jour Charmant2 arriva sur son cheval blanc et la sauva. [...]</p>
+      </body>
+  </text>
+</TEI>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<texte>
+   <chapitre n="1">
+      <titreChapitre>Blanche-Neige mange la pomme empoisonnée</titreChapitre>
+      <paragraphe>Il était une fois <nomPersonnage>Blanche-Neige</nomPersonnage>
+         <noteDeBasDePage>Elle porte ce nom, car son visage est blanc comme la neige</noteDeBasDePage> que sa belle-mère détestait </paragraphe>
+   </chapitre>
+   <chapitre>
+      <titreChapitre>Blanche-Neige attend le nain Charmant</titreChapitre>
+      <paragraphe>Un jour, <nomPersonnage>Charmant</nomPersonnage><noteDeBasDePage>Nom du prince
+         qui sauve Blanche-Neige, il est rare que les variantes du conte mentionne sa petite
+         taille.</noteDeBasDePage>arriva sur son cheval blanc et la sauva. </paragraphe>
+   </chapitre>
+</texte>
